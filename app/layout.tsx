@@ -1,18 +1,19 @@
-import './globals.css'
+import './globals.css';
+import React from 'react';
 
 export const metadata = {
-  title: 'OnePic',
-  description: 'AI 写真生成',
-}
+  title: 'OnePicAI',
+  description: 'AI Image Platform',
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="zh">
+    <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }
